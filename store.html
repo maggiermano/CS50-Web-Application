@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Bored Ball Bonanza 
+{% endblock %}
+
+{% block main %}
+  <h1>Welcome to the Bored Ball Store</h1>
+  <hr>
+  <div class="shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="card-deck">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Sell your own products</h5>
+        <a href="/sell" class="btn btn-primary">Click here</a>
+      </div>
+    </div>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Contact sellers to buy products</h5>
+      <a href="/buy" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">View Your Wishlist</h5>
+      <a href="/wishlist" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
+  </div>
+</div>
+<h5>Back to <a href="pick">options page</a></h5>
+{% endblock %}

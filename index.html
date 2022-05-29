@@ -1,0 +1,28 @@
+{% extends "layout1.html" %}
+
+{% block title %}
+    
+{% endblock %}
+
+{% block main %}
+<div id="background">
+    <h1 style="color: white;">WELCOME TO BORED BALL</h1>
+</div>
+<hr>
+  <script>
+      var i = 0;
+      function change() {
+        var doc = document.getElementById("background");
+        var color = ["black", "blue", "brown", "green"];
+        doc.style.backgroundColor = color[i];
+        i = (i + 1) % color.length;
+      }
+      setInterval(change, 1000);
+  </script>
+<div class="football" size="100px">
+  <a href="/pick"><img width="50%" height="auto" src="/static/football_image.jpg"></a>
+</div>
+<hr>
+<h3>ARE YOU A BORED FOOTBALL FAN? WELL OF COURSE YOU ARE. WHY ELSE WOULD YOU HAVE FOUND THIS PAGE. YOU'VE PROBABLY BEEN INTRIGUED
+BY THAT BIG FOOTBALL AT THE CENTER OF THE PAGE. WELL GO ON THEN. GO AHEAD AND GIVE IT A CLICK!</h3>
+{% endblock %}

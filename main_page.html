@@ -1,0 +1,62 @@
+{% extends "layout1.html" %}
+
+{% block title %}
+    
+{% endblock %}
+
+{% block main %}
+<h1>What would you like to do?</h1>
+<hr>
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="card-deck">
+    <div class="card" style="width: 18rem;">
+      <img src="/static/mainsite-equipment.jpg" class="card-img-top" alt="Football Equipment">
+      <div class="card-body">
+        <h5 class="card-title">Second-hand Store</h5>
+        <p class="card-text">Have some old boots that are in good shape? Extra footy equipment? Well this is the perfect place to make a little green off of your own footy apparel.
+                             You can go ahead and contact sellers if you are interested in any products as well!</p>
+        <a href="/store" class="btn btn-primary">Click here</a>
+      </div>
+    </div>
+  <div class="card" style="width: 18rem;">
+    <img src="/static/trivia.png" class="card-img-top" alt="Football Trivia">
+    <div class="card-body">
+      <h5 class="card-title">Trivia</h5>
+      <p class="card-text">Are you a true football fan? Find out in our very trivia to test out your footy knowledge!</p>
+      <a href="/trivia" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="/static/which.jpeg" class="card-img-top" alt="Football Legends">
+    <div class="card-body">
+      <h5 class="card-title">Which football legend are you?</h5>
+      <p class="card-text">Dying to know which maestro you most resemble based on random facts about you? Well we've got just what you need!!</p>
+      <a href="/which" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="card-deck">
+    <div class="card" style="width: 18rem;">
+      <img src="/static/wow.jpg" class="card-img-top" alt="Football Fun Facts">
+      <div class="card-body">
+        <h5 class="card-title">Fun Facts</h5>
+        <p class="card-text">I guaruntee you have never heard of these interesting facts about your favorite footballers.
+                             From eating habits to growth disorders, we have it all on the fun facts page. 
+                             Head over there now to check out some fun footy facts!</p>
+        <a href="/funfacts" class="btn btn-primary">Click here</a>
+      </div>
+    </div>
+  <div class="card" style="width: 18rem;">
+    <img src="/static/Messi (1).jpg" class="card-img-top" alt="Football Unpopular Opinions">
+    <div class="card-body">
+      <h5 class="card-title">Unpopular Opinions</h5>
+      <p class="card-text">There's some super wacky opinions out there. Aaron Ramsey better than Zinedane Zidane? 
+                          Check them out and see if you agree with them or not.</p>
+      <a href="/unpopularopinions" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
+  </div>
+</div>
+{% endblock %}
